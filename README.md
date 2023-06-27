@@ -34,6 +34,6 @@ Programming language: Python 3.8.3.
 
 2.How to use？
 
-First, preprocess the image: Cut 80 digital core slices into 80 * 80 size images and stack sequentially into a tif of 80*80*80 size as training image.
+First, preprocess the image: Cut 80 digital core slices into 80 * 80 size images and stack sequentially into a tif of 80 * 80 * 80 size as training image.
 
 Secondly, set the network parameters such as maxsize, batchsize, learning rate and storage location. After configuring the parameters and environment, you can run main.py directly.
